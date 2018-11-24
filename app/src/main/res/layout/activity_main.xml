@@ -8,12 +8,12 @@
 
     <ImageView
         android:id="@+id/icon"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="355dp"
+        android:layout_height="52dp"
         android:adjustViewBounds="true"
         android:background="#fa2255"
         android:scaleType="centerCrop"
-        android:src="@drawable/sherlock" />
+        android:src="@drawable/sherlock"/>
 
     <TextView
         android:id="@+id/textViewLabel"

@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">ForResult</string>
     <string name="who">Кто украл?</string>
+    <string name="choice_label">Select thief</string>
 </resources>
