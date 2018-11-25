@@ -8,11 +8,13 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
     static final private int CHOOSE_THIEF = 0;
+    public static final String ACTION_SECOND_ACTIVITY = "tk.alltrue.ChooseActivity";
 
     public void onClick(View view) {
-        Intent questionIntent = new Intent(MainActivity.this,
-                ChooseActivity.class);
-        startActivityForResult(questionIntent, CHOOSE_THIEF);
+//        Intent questionIntent = new Intent(MainActivity.this,
+//                ChooseActivity.class);
+//        startActivityForResult(questionIntent, CHOOSE_THIEF);
+        startActivityForResult(new Intent(ACTION_SECOND_ACTIVITY), CHOOSE_THIEF);
     }
 
     @Override

@@ -18,6 +18,10 @@
         </activity>
         <activity android:name=".ChooseActivity"
             android:label="@string/choice_label">
+            <intent-filter>
+                <action android:name="tk.alltrue.ChooseActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
         </activity>
 
     </application>
