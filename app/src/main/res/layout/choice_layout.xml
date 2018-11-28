@@ -11,7 +11,7 @@
         android:id="@+id/textView1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        style="@style/MyTextStyle"
+        style="@style/MyTextStyle.Red"
         android:text="Выберите правильный ответ"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
