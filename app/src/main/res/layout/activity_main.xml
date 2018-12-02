@@ -35,4 +35,11 @@
         android:onClick="onClick"
         android:text="Сделать выбор" />
 
+    <Button
+        android:id="@+id/feedTheCat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickFeed"
+        android:text="Feed the cat?"/>
+
 </LinearLayout>
